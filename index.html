@@ -1,12 +1,15 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Jessica Paola Gómez | Sitio Web Personal</title>
+<title>Jessica Paola Gómez | Herramientas TIC</title>
 
 <style>
+
 *{
 margin:0;
 padding:0;
@@ -15,16 +18,16 @@ font-family:'Segoe UI',sans-serif;
 }
 
 body{
-background:#f5f7fa;
+background:#f4f6f9;
 color:#333;
-line-height:1.6;
+line-height:1.7;
 }
 
 header{
 background:linear-gradient(135deg,#4f46e5,#7c3aed);
 color:white;
-padding:60px 20px;
 text-align:center;
+padding:70px 20px;
 }
 
 header h1{
@@ -32,11 +35,16 @@ font-size:3rem;
 margin-bottom:10px;
 }
 
+header p{
+font-size:1.2rem;
+}
+
 nav{
 background:#312e81;
 padding:15px;
 position:sticky;
 top:0;
+z-index:1000;
 }
 
 nav ul{
@@ -46,23 +54,27 @@ list-style:none;
 flex-wrap:wrap;
 }
 
-nav ul li{
+nav li{
 margin:5px 15px;
 }
 
-nav ul li a{
+nav a{
 color:white;
 text-decoration:none;
 font-weight:bold;
 }
 
+nav a:hover{
+color:#c7d2fe;
+}
+
 section{
 max-width:1100px;
 margin:30px auto;
-padding:30px;
 background:white;
+padding:35px;
 border-radius:15px;
-box-shadow:0 3px 12px rgba(0,0,0,.1);
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
 }
 
 h2{
@@ -70,16 +82,9 @@ color:#4f46e5;
 margin-bottom:15px;
 }
 
-.hero{
-text-align:center;
-}
-
-.hero img{
-width:180px;
-height:180px;
-border-radius:50%;
-object-fit:cover;
-margin-bottom:20px;
+h3{
+color:#312e81;
+margin-bottom:10px;
 }
 
 .tarjetas{
@@ -95,16 +100,12 @@ padding:20px;
 border-radius:12px;
 }
 
-.galeria{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:20px;
-margin-top:20px;
-}
-
-.galeria img{
-width:100%;
-border-radius:10px;
+img{
+max-width:100%;
+border-radius:15px;
+display:block;
+margin:auto;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
 }
 
 footer{
@@ -114,39 +115,64 @@ text-align:center;
 padding:25px;
 margin-top:40px;
 }
+
+.boton{
+display:inline-block;
+background:#4f46e5;
+color:white;
+padding:12px 20px;
+border-radius:10px;
+text-decoration:none;
+margin-top:15px;
+}
+
+.boton:hover{
+background:#312e81;
+}
+
 </style>
 
 </head>
+
 <body>
 
 <header>
+
 <h1>Jessica Paola Gómez</h1>
-<p>Dibujo y Modelado Arquitectónico • Carpintería • Diseño de Muebles • TIC</p>
+
+<p>
+Dibujo y Modelado Arquitectónico • Carpintería • Diseño de Muebles • TIC
+</p>
+
 </header>
 
 <nav>
+
 <ul>
 <li><a href="#inicio">Inicio</a></li>
-<li><a href="#perfil">Perfil</a></li>
+<li><a href="#perfil">Sobre mí</a></li>
 <li><a href="#tic">Herramientas TIC</a></li>
-<li><a href="#comic">Comic</a></li>
+<li><a href="#comic">Comic TIC</a></li>
 <li><a href="#mapa">Mapa Mental</a></li>
-<li><a href="#contacto">Contacto</a></li>
+<li><a href="#conclusion">Conclusión</a></li>
 </ul>
+
 </nav>
 
-<section id="inicio" class="hero">
+<section id="inicio">
 
-<h2>Bienvenidos a mi sitio web</h2>
+<h2>Bienvenidos</h2>
 
 <p>
-Hola, soy Jessica Paola Gómez y este espacio ha sido creado para compartir información sobre mi perfil personal y profesional, así como algunos conocimientos relacionados con las Tecnologías de la Información y la Comunicación (TIC).
+Hola, soy Jessica Paola Gómez y les doy la bienvenida a mi sitio web personal.
 </p>
 
-<br>
+<p>
+Este espacio fue creado como parte de una actividad académica para aplicar conocimientos relacionados con las Tecnologías de la Información y la Comunicación (TIC), así como para compartir información sobre mi perfil personal y profesional.
+</p>
 
 <p>
-Este sitio forma parte de una actividad académica orientada al uso de herramientas digitales para la publicación de contenidos en Internet de forma funcional, segura y responsable.
+Aquí encontrarás información sobre mi experiencia, mis intereses, un comic relacionado con las TIC y un mapa mental que resume los conceptos más importantes de estas herramientas tecnológicas.
 </p>
 
 </section>
@@ -156,36 +182,36 @@ Este sitio forma parte de una actividad académica orientada al uso de herramien
 <h2>Sobre mí</h2>
 
 <p>
-Mi nombre es Jessica Paola Gómez. Estudié Dibujo y Modelado Arquitectónico en el SENA, donde desarrollé habilidades relacionadas con el diseño, la representación gráfica y la visualización de proyectos arquitectónicos.
+Mi nombre es Jessica Paola Gómez.
 </p>
 
-<br>
-
 <p>
-Actualmente me desempeño como carpintera, una labor que me apasiona porque me permite combinar creatividad, técnica y funcionalidad en la fabricación de muebles y elementos para diferentes espacios.
+Estudié Dibujo y Modelado Arquitectónico en el SENA, donde adquirí conocimientos relacionados con la representación gráfica, diseño de espacios y visualización de proyectos arquitectónicos.
 </p>
 
-<br>
+<p>
+Actualmente me desempeño como carpintera, una actividad que me apasiona porque me permite combinar creatividad, precisión y funcionalidad en la fabricación de muebles y elementos para diferentes espacios.
+</p>
 
 <p>
-Me gusta el diseño de muebles, la innovación, el dibujo técnico y el aprendizaje continuo de nuevas herramientas que contribuyan al crecimiento profesional y personal.
+Entre mis principales intereses se encuentran el diseño de muebles, la innovación, la decoración de interiores y el aprendizaje continuo de nuevas herramientas tecnológicas que aporten al desarrollo profesional.
 </p>
 
 </section>
 
 <section id="tic">
 
-<h2>Herramientas TIC</h2>
+<h2>¿Qué son las TIC?</h2>
 
 <p>
-Las Tecnologías de la Información y la Comunicación (TIC) son herramientas que permiten crear, almacenar, compartir y acceder a la información mediante dispositivos y plataformas digitales.
+Las Tecnologías de la Información y la Comunicación (TIC) son un conjunto de herramientas tecnológicas que facilitan la creación, almacenamiento, procesamiento y transmisión de información mediante medios digitales.
 </p>
 
 <div class="tarjetas">
 
 <div class="tarjeta">
 <h3>Comunicación</h3>
-<p>Correo electrónico, WhatsApp, videollamadas y redes sociales.</p>
+<p>Correo electrónico, videollamadas, mensajería instantánea y redes sociales.</p>
 </div>
 
 <div class="tarjeta">
@@ -200,33 +226,71 @@ Las Tecnologías de la Información y la Comunicación (TIC) son herramientas qu
 
 <div class="tarjeta">
 <h3>Almacenamiento</h3>
-<p>Google Drive, OneDrive y servicios en la nube.</p>
+<p>Google Drive, OneDrive y otros servicios en la nube.</p>
+</div>
+
+<div class="tarjeta">
+<h3>Diseño Digital</h3>
+<p>Canva, Photoshop, CapCut y herramientas creativas.</p>
+</div>
+
+<div class="tarjeta">
+<h3>Seguridad</h3>
+<p>Protección de datos, antivirus y copias de seguridad.</p>
 </div>
 
 </div>
+
+</section>
+
+<section id="comic">
+
+<h2>Comic sobre las TIC</h2>
+
+<p>
+La siguiente historieta muestra cómo las TIC facilitan actividades diarias como el estudio, la comunicación, el trabajo y el acceso al conocimiento.
+</p>
 
 <br>
 
+<img src="comic.png" alt="Comic sobre las TIC">
+
+</section>
+
+<section id="mapa">
+
+<h2>Mapa Mental de las TIC</h2>
+
 <p>
-Las TIC facilitan el aprendizaje, mejoran la productividad y fortalecen la comunicación entre personas y organizaciones.
+Este mapa mental organiza las principales categorías de las Tecnologías de la Información y la Comunicación, así como sus aplicaciones y beneficios.
 </p>
+
+<br>
+
+<img src="mapa-mental.png" alt="Mapa Mental TIC">
+
+</section>
+
+<section id="conclusion">
 
 <h2>Conclusión</h2>
 
 <p>
-Las TIC son fundamentales para el desarrollo de la sociedad actual. Gracias a ellas es posible acceder al conocimiento, mejorar la comunicación y crear nuevas oportunidades de crecimiento personal y profesional.
+Las TIC son herramientas fundamentales para el desarrollo de la sociedad actual, ya que facilitan el acceso a la información, fortalecen la comunicación y contribuyen al aprendizaje continuo.
 </p>
 
-<br>
-
 <p>
-Como profesional interesada en el diseño y la carpintería, considero que las herramientas tecnológicas son un apoyo importante para innovar, compartir proyectos y ampliar las posibilidades de aprendizaje.
+Como profesional interesada en el diseño, la carpintería y la innovación, considero que estas tecnologías representan una oportunidad para mejorar procesos, compartir conocimientos y ampliar las posibilidades de crecimiento personal y profesional.
 </p>
 
 </section>
 
 <footer>
-<p>© 2026 Jessica Paola Gómez | Sitio Web Académico</p>
+
+<p>
+© 2026 Jessica Paola Gómez | Sitio Web Personal sobre Herramientas TIC
+</p>
+
 </footer>
 
 </body>
